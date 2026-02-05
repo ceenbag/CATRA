@@ -26,6 +26,7 @@
   <Project Path="Unity.2D.Aseprite.Common.csproj" />
   <Project Path="Unity.InputSystem.DocCodeSamples.csproj" />
   <Project Path="Unity.VisualScripting.DocCodeExamples.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
   <Project Path="Unity.2D.SpriteShape.EditorTests.csproj" />
   <Project Path="Unity.2D.Psdimporter.EditorTests.csproj" />
   <Project Path="Unity.InputSystem.IntegrationTests.csproj" />
