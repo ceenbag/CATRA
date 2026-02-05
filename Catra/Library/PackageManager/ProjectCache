@@ -256,6 +256,8 @@ m_ResolvedPackages:
     - 14.0.0
     - 14.0.1
     - 14.0.2
+    - 15.0.0
+    - 15.0.1
     compatible:
     - 13.0.2
     - 13.0.3
@@ -421,6 +423,7 @@ m_ResolvedPackages:
     - 3.0.0
     - 3.0.1
     - 4.0.0
+    - 5.0.0
     compatible:
     - 3.0.1
     recommended: 3.0.1
@@ -660,6 +663,7 @@ m_ResolvedPackages:
     - 12.0.1
     - 13.0.0
     - 13.0.1
+    - 14.0.0
     compatible:
     - 12.0.1
     recommended: 12.0.1
@@ -990,6 +994,7 @@ m_ResolvedPackages:
     - 12.0.2
     - 13.0.0
     - 14.0.0
+    - 15.0.0
     compatible:
     - 13.0.0
     recommended: 13.0.0
@@ -1302,6 +1307,7 @@ m_ResolvedPackages:
     - 7.0.0-exp.1
     - 7.0.0
     - 8.0.0-exp.1
+    - 8.0.0
     compatible:
     - 6.0.1
     recommended: 6.0.1
@@ -1424,6 +1430,7 @@ m_ResolvedPackages:
     - 1.0.1
     - 1.0.2
     - 2.0.0
+    - 3.0.0
     compatible:
     - 1.0.0
     - 1.0.1
@@ -1723,10 +1730,12 @@ m_ResolvedPackages:
     - 2.0.23
     - 2.0.25
     - 2.0.26
+    - 2.0.27
     compatible:
     - 2.0.25
     - 2.0.26
-    recommended: 2.0.26
+    - 2.0.27
+    recommended: 2.0.27
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -6676,6 +6685,7 @@ m_ResolvedPackages:
     - 12.0.2
     - 13.0.0
     - 13.0.1
+    - 14.0.0
     compatible:
     - 12.0.1
     - 12.0.2
@@ -7374,9 +7384,11 @@ m_ResolvedPackages:
     - 1.8.25
     - 1.8.26
     - 1.8.27
+    - 1.8.28
     compatible:
     - 1.8.27
-    recommended: 1.8.27
+    - 1.8.28
+    recommended: 1.8.28
     deprecated: []
   dependencies:
   - name: com.unity.mathematics

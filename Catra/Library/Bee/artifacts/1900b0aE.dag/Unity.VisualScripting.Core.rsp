@@ -859,5 +859,4 @@
 /nowarn:1702
 /utf8output
 /preferreduilang:en-US
--warn:0
 /additionalfile:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt"

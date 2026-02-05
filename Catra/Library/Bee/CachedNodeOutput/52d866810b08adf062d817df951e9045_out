@@ -1,0 +1,3 @@
+Packages\com.unity.visualscripting\Editor\VisualScripting.Core\Graph\GraphPointerData.cs(34,39): warning CS0618: 'EditorUtility.InstanceIDToObject(int)' is obsolete: 'InstanceIDToObject(int) is obsolete. Use EditorUtility.EntityIdToObject instead.'
+Packages\com.unity.visualscripting\Editor\VisualScripting.Core\Inspection\Inspector.cs(19,31): warning CS0618: 'EditorUtility.InstanceIDToObject(int)' is obsolete: 'InstanceIDToObject(int) is obsolete. Use EditorUtility.EntityIdToObject instead.'
+Packages\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\EditorSerializationUtility.cs(73,42): warning CS0618: 'EditorUtility.InstanceIDToObject(int)' is obsolete: 'InstanceIDToObject(int) is obsolete. Use EditorUtility.EntityIdToObject instead.'
