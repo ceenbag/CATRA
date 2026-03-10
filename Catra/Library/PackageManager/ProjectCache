@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639061782624025234
-    m_Hash: 2349529150
+      ticks: 639086191077227469
+    m_Hash: 300519696
   m_LockFileStatus:
     m_FilePath: C:/Users/ceenbag/GithubRepos/CATRA/Catra/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639061782624035236
-    m_Hash: 4015276921
+      ticks: 639086191077285743
+    m_Hash: 261067325
 m_EmbeddedPackageManifests:
   m_ManifestsStatus:
     C:/Users/ceenbag/GithubRepos/CATRA/Catra/Packages/com.unity.2d.tilemap.extras/package.json:
@@ -84,7 +84,7 @@ m_EmbeddedPackageManifests:
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/ceenbag/GithubRepos/CATRA/Catra/Packages
-m_EditorVersion: 6000.3.3f1 (ef04196de0d6)
+m_EditorVersion: 6000.3.7f1 (696ec25a53d1)
 m_ResolvedPackages:
 - packageId: com.unity.2d.animation@13.0.4
   testable: 0
@@ -256,11 +256,12 @@ m_ResolvedPackages:
     - 14.0.0
     - 14.0.1
     - 14.0.2
+    - 14.0.3
     - 15.0.0
     - 15.0.1
+    - 15.0.2
+    - 15.0.3
     compatible:
-    - 13.0.2
-    - 13.0.3
     - 13.0.4
     recommended: 13.0.4
     deprecated: []
@@ -337,7 +338,7 @@ m_ResolvedPackages:
     revision: 68e84cab9388239c8f92dfd84eca0bd3e85c8896
     path: 
   unityLifecycle:
-    version: 13.0.2
+    version: 13.0.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -366,7 +367,7 @@ m_ResolvedPackages:
   fingerprint: 7396d8477ca93349104292dd0d2c0df8d8ad4c21
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 13.0.2
+    minimumPackageVersion: 13.0.4
     minimumUnityVersion: 6000.3.0a2
   compliance:
     status: 0
@@ -423,7 +424,10 @@ m_ResolvedPackages:
     - 3.0.0
     - 3.0.1
     - 4.0.0
+    - 4.0.1
     - 5.0.0
+    - 5.0.1
+    - 5.0.2
     compatible:
     - 3.0.1
     recommended: 3.0.1
@@ -663,7 +667,10 @@ m_ResolvedPackages:
     - 12.0.1
     - 13.0.0
     - 13.0.1
+    - 13.0.2
     - 14.0.0
+    - 14.0.1
+    - 14.0.2
     compatible:
     - 12.0.1
     recommended: 12.0.1
@@ -994,7 +1001,10 @@ m_ResolvedPackages:
     - 12.0.2
     - 13.0.0
     - 14.0.0
+    - 14.0.1
     - 15.0.0
+    - 15.0.1
+    - 15.0.2
     compatible:
     - 13.0.0
     recommended: 13.0.0
@@ -1119,7 +1129,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.2d.tilemap@d1f73c185ae9
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.2d.tilemap@2428aeee2f73
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -1213,7 +1223,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: d1f73c185ae909693707c01ed72dbf111201ee39
+  fingerprint: 2428aeee2f739ba27e841f87bdc993170fe923b9
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
@@ -1306,8 +1316,12 @@ m_ResolvedPackages:
     - 6.0.1
     - 7.0.0-exp.1
     - 7.0.0
+    - 7.0.1
     - 8.0.0-exp.1
     - 8.0.0
+    - 8.0.1
+    - 8.0.2
+    - 8.88.0-exp.1
     compatible:
     - 6.0.1
     recommended: 6.0.1
@@ -1430,10 +1444,9 @@ m_ResolvedPackages:
     - 1.0.1
     - 1.0.2
     - 2.0.0
+    - 2.0.1
     - 3.0.0
     compatible:
-    - 1.0.0
-    - 1.0.1
     - 1.0.2
     recommended: 1.0.2
     deprecated: []
@@ -1502,7 +1515,7 @@ m_ResolvedPackages:
     revision: 68e84cab9388239c8f92dfd84eca0bd3e85c8896
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 1.0.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1530,8 +1543,240 @@ m_ResolvedPackages:
   fingerprint: 2499951567687634a16f41e9f26ee5dfeb8f8da6
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
+    minimumPackageVersion: 1.0.2
     minimumUnityVersion: 6000.3.0a2
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.cinemachine@3.1.6
+  testable: 0
+  isDirectDependency: 1
+  version: 3.1.6
+  source: 1
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.cinemachine@285f38545487
+  assetPath: Packages/com.unity.cinemachine
+  name: com.unity.cinemachine
+  displayName: Cinemachine
+  author:
+    name: 
+    email: 
+    url: 
+  category: cinematography
+  type: 
+  description: "Smart camera tools for passionate creators. \n\nCinemachine 3 is
+    a newer and better version of Cinemachine, but upgrading an existing project
+    from 2.X will likely require some effort.  If you're considering upgrading an
+    older project, please see our upgrade guide in the user manual."
+  errors: []
+  versions:
+    all:
+    - 2.1.11-beta.1
+    - 2.1.12
+    - 2.1.13
+    - 2.2.0
+    - 2.2.7
+    - 2.2.8
+    - 2.2.9
+    - 2.2.10-preview.3
+    - 2.2.10-preview.4
+    - 2.3.1
+    - 2.3.3
+    - 2.3.4
+    - 2.3.5-preview.3
+    - 2.4.0-preview.3
+    - 2.4.0-preview.4
+    - 2.4.0-preview.6
+    - 2.4.0-preview.7
+    - 2.4.0-preview.8
+    - 2.4.0-preview.9
+    - 2.4.0-preview.10
+    - 2.4.0
+    - 2.5.0
+    - 2.6.0-preview.2
+    - 2.6.0-preview.3
+    - 2.6.0-preview.5
+    - 2.6.0-preview.8
+    - 2.6.0
+    - 2.6.1-preview.6
+    - 2.6.1
+    - 2.6.2-preview.1
+    - 2.6.2
+    - 2.6.3-preview.2
+    - 2.6.3
+    - 2.6.4
+    - 2.6.5
+    - 2.6.9
+    - 2.6.10
+    - 2.6.11
+    - 2.6.14
+    - 2.6.15
+    - 2.6.17
+    - 2.7.1
+    - 2.7.2
+    - 2.7.3
+    - 2.7.4
+    - 2.7.5
+    - 2.7.8
+    - 2.7.9
+    - 2.8.0-exp.1
+    - 2.8.0-exp.2
+    - 2.8.0-pre.1
+    - 2.8.0
+    - 2.8.1
+    - 2.8.2
+    - 2.8.3
+    - 2.8.4
+    - 2.8.6
+    - 2.8.9
+    - 2.9.0-pre.1
+    - 2.9.0-pre.6
+    - 2.9.1
+    - 2.9.2
+    - 2.9.4
+    - 2.9.5
+    - 2.9.7
+    - 2.10.0
+    - 2.10.1
+    - 2.10.2
+    - 2.10.3
+    - 2.10.4
+    - 2.10.5
+    - 2.10.6
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    - 3.0.0-pre.5
+    - 3.0.0-pre.6
+    - 3.0.0-pre.7
+    - 3.0.0-pre.8
+    - 3.0.0-pre.9
+    - 3.0.1
+    - 3.1.0
+    - 3.1.1
+    - 3.1.2
+    - 3.1.3
+    - 3.1.4
+    - 3.1.5
+    - 3.1.6
+    compatible:
+    - 2.10.5
+    - 2.10.6
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    - 3.0.0-pre.5
+    - 3.0.0-pre.6
+    - 3.0.0-pre.7
+    - 3.0.0-pre.8
+    - 3.0.0-pre.9
+    - 3.0.1
+    - 3.1.0
+    - 3.1.1
+    - 3.1.2
+    - 3.1.3
+    - 3.1.4
+    - 3.1.5
+    - 3.1.6
+    recommended: 3.1.6
+    deprecated: []
+  dependencies:
+  - name: com.unity.splines
+    version: 2.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.splines
+    version: 2.8.2
+  - name: com.unity.mathematics
+    version: 1.3.3
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 2.1.1
+  keywords:
+  - camera
+  - follow
+  - rig
+  - fps
+  - cinematography
+  - aim
+  - orbit
+  - cutscene
+  - cinematic
+  - collision
+  - freelook
+  - cinemachine
+  - compose
+  - composition
+  - dolly
+  - track
+  - clearshot
+  - noise
+  - framing
+  - handheld
+  - lens
+  - impulse
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639076318093840000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
+    revision: 293f7764a9c6e9f087fad05023a586dcfdc1939b
+    path: 
+  unityLifecycle:
+    version: 2.10.5
+    nextVersion: 
+    recommendedVersion: 3.1.0
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Bugfixes\n- Fixed look at being ignored in third
+    person camera when camera is navel gazing.\n- Fixed error when both HDRP and
+    URP rendering pipelines are added to a project.\\\n- Fixed outdated warning on
+    RotationComposerComponent.\n- Fixed GC Alloc in CinemachineInputAxisController.Update().\n-
+    Fixed ForceCameraPosition regression in CinemachineFollow/CinemachineOrbitalFollow/CinemachineTransposer/CinemachineOrbitalTransposer
+    to allow looking away from targets.\n\n### Changed\n- Converted code using InstanceID
+    references and API to EntityID."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 285f385454873b7d4509f804a9b4c840e834066a
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.10.5
+    minimumUnityVersion: 2022.3
   compliance:
     status: 0
     violation:
@@ -1609,7 +1854,6 @@ m_ResolvedPackages:
     - 3.0.38
     - 3.0.39
     compatible:
-    - 3.0.38
     - 3.0.39
     recommended: 3.0.39
     deprecated:
@@ -1645,7 +1889,7 @@ m_ResolvedPackages:
     revision: 4da98b83c4f1de974829959526a470c26a8fa9f4
     path: 
   unityLifecycle:
-    version: 3.0.38
+    version: 3.0.39
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1674,7 +1918,7 @@ m_ResolvedPackages:
   fingerprint: 4504839d03f7a5a4495357084a0ffd6e439892cf
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 3.0.38
+    minimumPackageVersion: 3.0.39
     minimumUnityVersion: 2021.3
   compliance:
     status: 0
@@ -1732,7 +1976,6 @@ m_ResolvedPackages:
     - 2.0.26
     - 2.0.27
     compatible:
-    - 2.0.25
     - 2.0.26
     - 2.0.27
     recommended: 2.0.27
@@ -1774,7 +2017,7 @@ m_ResolvedPackages:
     revision: a52ff32ff9e8cf43be6597597939ef63126ab463
     path: 
   unityLifecycle:
-    version: 2.0.25
+    version: 2.0.26
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1804,7 +2047,7 @@ m_ResolvedPackages:
   fingerprint: a99d56dec63ffb3a911a5a9bce9b77ba862a601c
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.25
+    minimumPackageVersion: 2.0.26
     minimumUnityVersion: 2021.3
   compliance:
     status: 0
@@ -1893,10 +2136,11 @@ m_ResolvedPackages:
     - 1.16.0
     - 1.17.0
     - 1.18.0
+    - 1.19.0
     compatible:
-    - 1.17.0
     - 1.18.0
-    recommended: 1.17.0
+    - 1.19.0
+    recommended: 1.18.0
     deprecated: []
   dependencies:
   - name: com.unity.modules.uielements
@@ -1947,7 +2191,7 @@ m_ResolvedPackages:
     revision: 672e42ce4f76a7086fb09e24d5236e5f71336bd6
     path: 
   unityLifecycle:
-    version: 1.17.0
+    version: 1.18.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1986,8 +2230,8 @@ m_ResolvedPackages:
     productId: 
   fingerprint: 02433b2481abc5c0063956fdc211f3d8c777447f
   editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.17.0
+    compatibilityLevel: 1
+    minimumPackageVersion: 1.18.0
     minimumUnityVersion: 2022.3
   compliance:
     status: 0
@@ -2107,7 +2351,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.3.0
   source: 2
-  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.render-pipelines.universal@f70afd0d2146
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.render-pipelines.universal@a6e30d1f59f5
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal Render Pipeline
@@ -2227,7 +2471,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: f70afd0d2146a5054bd625f413a0535771299cff
+  fingerprint: a6e30d1f59f5364f0f32d5b542626a3743ae75b6
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.3.0
@@ -2449,9 +2693,11 @@ m_ResolvedPackages:
     - 1.8.8
     - 1.8.9
     - 1.8.10
+    - 1.8.11
     compatible:
     - 1.8.10
-    recommended: 1.8.10
+    - 1.8.11
+    recommended: 1.8.11
     deprecated: []
   dependencies:
   - name: com.unity.modules.director
@@ -2545,20 +2791,20 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.ugui@8873725e650d
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.ugui@11343a6274f3
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
-  displayName: Unity UI
+  displayName: uGUI
   author:
     name: 
     email: 
     url: 
   category: 
   type: 
-  description: "Unity UI is a set of tools for developing user interfaces for games
-    and applications. It is a GameObject-based UI system that uses Components and
-    the Game View to arrange, position, and style user interfaces. \u200B You cannot
-    use Unity UI to create or change user interfaces in the Unity Editor."
+  description: "uGUI (Unity UI) is a set of tools for developing user interfaces
+    for games and applications. It is a GameObject-based UI system that uses Components
+    and the Game View to arrange, position, and style user interfaces. \u200B You
+    cannot use Unity UI to create or change user interfaces in the Unity Editor."
   errors: []
   versions:
     all:
@@ -2636,7 +2882,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 8873725e650d08e38ff0036c986491dc2aff70dc
+  fingerprint: 11343a6274f3066606b12fe045bb4fd815279686
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
@@ -2703,9 +2949,11 @@ m_ResolvedPackages:
     - 1.9.7
     - 1.9.8
     - 1.9.9
+    - 1.9.10
     compatible:
     - 1.9.9
-    recommended: 1.9.9
+    - 1.9.10
+    recommended: 1.9.10
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -2790,7 +3038,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -2878,7 +3126,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.adaptiveperformance
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.adaptiveperformance
   assetPath: Packages/com.unity.modules.adaptiveperformance
   name: com.unity.modules.adaptiveperformance
   displayName: Adaptive Performance
@@ -2972,7 +3220,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -3060,7 +3308,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -3147,7 +3395,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -3235,7 +3483,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -3323,7 +3571,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -3411,7 +3659,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -3503,7 +3751,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -3599,7 +3847,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -3687,7 +3935,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -3775,7 +4023,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -3863,7 +4111,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -3951,7 +4199,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -4039,7 +4287,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -4127,7 +4375,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -4219,7 +4467,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -4307,7 +4555,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -4403,7 +4651,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -4494,7 +4742,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -4582,7 +4830,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -4690,7 +4938,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -4778,7 +5026,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -4873,7 +5121,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -4961,7 +5209,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -5057,7 +5305,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -5153,7 +5401,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -5249,7 +5497,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -5361,7 +5609,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vectorgraphics
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.vectorgraphics
   assetPath: Packages/com.unity.modules.vectorgraphics
   name: com.unity.modules.vectorgraphics
   displayName: Vector Graphics
@@ -5468,7 +5716,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -5560,7 +5808,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -5660,7 +5908,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -5763,7 +6011,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -5851,7 +6099,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -5951,7 +6199,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -6043,7 +6291,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -6222,7 +6470,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.3.0
   source: 2
-  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.render-pipelines.core@b5371ec5a8ac
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.render-pipelines.core@d6dfd1e235d5
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Scriptable Render Pipeline Core
@@ -6339,7 +6587,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: b5371ec5a8ac6b8c711f1bb9fa49986b69f18e19
+  fingerprint: d6dfd1e235d5156d31265ad0c7f00bd8d46c5154
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.3.0
@@ -6355,7 +6603,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.3.0
   source: 2
-  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.shadergraph@3ea479829020
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.shadergraph@0afb4c072efd
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -6464,7 +6712,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 3ea479829020e232333a5c61817cda6c114d0e8f
+  fingerprint: 0afb4c072efdba89e08dbb31a65a9ccba781e413
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.3.0
@@ -6592,6 +6840,140 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
+- packageId: com.unity.splines@2.8.2
+  testable: 0
+  isDirectDependency: 0
+  version: 2.8.2
+  source: 1
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.splines@1cb7d86fc7ff
+  assetPath: Packages/com.unity.splines
+  name: com.unity.splines
+  displayName: Splines
+  author:
+    name: 
+    email: 
+    url: 
+  category: Tool
+  type: 
+  description: Work with curves and paths. Use the Splines package to generate objects
+    and behaviors along paths, create trajectories, and draw shapes.
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.1
+    - 1.0.0-pre.5
+    - 1.0.0-pre.7
+    - 1.0.0-pre.8
+    - 1.0.0-pre.9
+    - 1.0.0
+    - 1.0.1
+    - 2.0.0-pre.2
+    - 2.0.0-pre.4
+    - 2.0.0
+    - 2.1.0
+    - 2.2.0
+    - 2.2.1
+    - 2.3.0
+    - 2.4.0
+    - 2.5.1
+    - 2.5.2
+    - 2.6.0
+    - 2.6.1
+    - 2.7.1
+    - 2.7.2
+    - 2.8.0
+    - 2.8.1
+    - 2.8.2
+    - 2.8.3
+    compatible:
+    - 2.8.2
+    - 2.8.3
+    recommended: 2.8.3
+    deprecated: []
+  dependencies:
+  - name: com.unity.mathematics
+    version: 1.2.1
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  resolvedDependencies:
+  - name: com.unity.mathematics
+    version: 1.3.3
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 2.1.1
+  keywords:
+  - spline
+  - curve
+  - path
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638935739205640000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.splines@2.8/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.splines.git
+    revision: 43fe6df748a4819ca8492b7d90662923a31d488f
+    path: 
+  unityLifecycle:
+    version: 2.8.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n\n- [DOCATT-4646], [DOCATT-5603], [DOCATT-7045],
+    [DOCATT-5044], [DOCATT-6376], [DOCATT-6626] Clarified API documentation following
+    user feedback.\n- [SPLB-360] Fixed a bug when selecting the clear component option,
+    resulting in out of range exception\n- [SPLB-361] Fixed a bug where the spline
+    would not animate with Scene/Domain reload disabled upon entering playmode\n-
+    [SPLB-356] Fixed a bug where a null reference exception would occur after baking
+    a SplineInstantiate component and then pressing Undo."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 1cb7d86fc7ffee63824ca302b2b8982178eeea83
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.8.2
+    minimumUnityVersion: 2022.3
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.2d.common@12.0.2
   testable: 0
   isDirectDependency: 0
@@ -6687,7 +7069,6 @@ m_ResolvedPackages:
     - 13.0.1
     - 14.0.0
     compatible:
-    - 12.0.1
     - 12.0.2
     recommended: 12.0.2
     deprecated: []
@@ -6765,7 +7146,7 @@ m_ResolvedPackages:
     revision: 68e84cab9388239c8f92dfd84eca0bd3e85c8896
     path: 
   unityLifecycle:
-    version: 12.0.1
+    version: 12.0.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -6793,7 +7174,7 @@ m_ResolvedPackages:
   fingerprint: 800085e896ad4b33b2dc3739891463543ac489d1
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 12.0.1
+    minimumPackageVersion: 12.0.2
     minimumUnityVersion: 6000.3.0a2
   compliance:
     status: 0
@@ -6889,17 +7270,16 @@ m_ResolvedPackages:
     and `PrimitiveVectorDrawer.CanCacheInspectorGUI` in UNITY_2023_2_OR_NEWER.\n*
     Updated minimum editor version to 2021.3"}'
   signature:
-    status: 2
-    reason: 'Signed attestation validation failed: Validation of signer''s certificate
-      failed: The certificate is either not yet valid or expired'
+    status: 1
+    reason: Signature is ok
     attestation:
-      format: 
-      publishingChannel: 
+      format: archive
+      publishingChannel: unity
       entitlementKeys: []
       ownerOrgName: 
       ownerOrgId: 
       publisherName: 
-    errorCode: ERR_SIGNED_ATTESTATION_VALIDATION_FAILED
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 19a9377c4ffa59370edad3e6a34e4445529badde
@@ -7013,11 +7393,13 @@ m_ResolvedPackages:
     - 2.6.2
     - 2.6.3
     - 2.6.4
+    - 2.6.5
     compatible:
     - 2.6.2
     - 2.6.3
     - 2.6.4
-    recommended: 2.6.4
+    - 2.6.5
+    recommended: 2.6.5
     deprecated: []
   dependencies:
   - name: com.unity.burst
@@ -7089,17 +7471,16 @@ m_ResolvedPackages:
   upmReserved: '{"changelog":"### Changed\n\n* Updated Burst dependency to version
     1.8.23."}'
   signature:
-    status: 2
-    reason: 'Signed attestation validation failed: Validation of signer''s certificate
-      failed: The certificate is either not yet valid or expired'
+    status: 1
+    reason: Signature is ok
     attestation:
-      format: 
-      publishingChannel: 
+      format: archive
+      publishingChannel: unity
       entitlementKeys: []
       ownerOrgName: 
       ownerOrgId: 
       publisherName: 
-    errorCode: ERR_SIGNED_ATTESTATION_VALIDATION_FAILED
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: aea9d3bd5e19f2a90fc3a39919974a5f3613a159
@@ -7198,17 +7579,16 @@ m_ResolvedPackages:
   upmReserved: '{"changelog":"- Fixed a bug where spaces are removed when highlighted.\n-
     Changed VisualSplitter to twoPaneSplitView and updated indentation"}'
   signature:
-    status: 2
-    reason: 'Signed attestation validation failed: Validation of signer''s certificate
-      failed: The certificate is either not yet valid or expired'
+    status: 1
+    reason: Signature is ok
     attestation:
-      format: 
-      publishingChannel: 
+      format: archive
+      publishingChannel: unity
       entitlementKeys: []
       ownerOrgName: 
       ownerOrgId: 
       publisherName: 
-    errorCode: ERR_SIGNED_ATTESTATION_VALIDATION_FAILED
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: d45a78918735dd5b1de2247c6e3567c60aa24115
@@ -7442,23 +7822,121 @@ m_ResolvedPackages:
     integer types would cause out-of-bounds writes (leading to data corruption and
     segfaults)\n\n### Known Issues\n\n### Purpose"}'
   signature:
-    status: 2
-    reason: 'Signed attestation validation failed: Validation of signer''s certificate
-      failed: The certificate is either not yet valid or expired'
+    status: 1
+    reason: Signature is ok
     attestation:
-      format: 
-      publishingChannel: 
+      format: archive
+      publishingChannel: unity
       entitlementKeys: []
       ownerOrgName: 
       ownerOrgId: 
       publisherName: 
-    errorCode: ERR_SIGNED_ATTESTATION_VALIDATION_FAILED
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 973857688024e0c6019b60f7a3b403e8e467c4d0
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.8.27
+    minimumUnityVersion: 2022.3
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.settings-manager@2.1.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.1.1
+  source: 1
+  resolvedPath: C:\Users\ceenbag\GithubRepos\CATRA\Catra\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86
+  assetPath: Packages/com.unity.settings-manager
+  name: com.unity.settings-manager
+  displayName: Settings Manager
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A framework for making any serializable field a setting, complete
+    with a pre-built settings interface.
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    - 2.1.0
+    - 2.1.1
+    compatible:
+    - 2.1.1
+    recommended: 2.1.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638956174685890000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.settings-manager@2.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 6eb5ed85eaf3276cc09f0cc4fc3311c72f0fc196
+    path: 
+  unityLifecycle:
+    version: 2.1.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 0
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changes\n\n- Enable Auto Reference on main assembly.\n\n###
+    Bug Fixes\n\n- [case: PBLD-56] Added tooltip to \"Options\" gear icon to specify
+    that context menu items are relevant only to the selected category."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 0b8638c5ce86009d785da17b17aaf629047f64ce
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.1.1
     minimumUnityVersion: 2022.3
   compliance:
     status: 0
@@ -7548,17 +8026,16 @@ m_ResolvedPackages:
     with embedded dlls of mono-cecil\n* Updated Cecil to 0.11.5 with a grafted patch
     from this bug fix PR (https://github.com/jbevain/cecil/pull/914)"}'
   signature:
-    status: 2
-    reason: 'Signed attestation validation failed: Validation of signer''s certificate
-      failed: The certificate is either not yet valid or expired'
+    status: 1
+    reason: Signature is ok
     attestation:
-      format: 
-      publishingChannel: 
+      format: archive
+      publishingChannel: unity
       entitlementKeys: []
       ownerOrgName: 
       ownerOrgId: 
       publisherName: 
-    errorCode: ERR_SIGNED_ATTESTATION_VALIDATION_FAILED
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: ecb9724e46fff855c46a4f37f0a3377a3cfffc06
@@ -7703,17 +8180,16 @@ m_ResolvedPackages:
     revision: 
   upmReserved: '{"changelog":"### Added\n\n- Improved render threading mode reporting"}'
   signature:
-    status: 2
-    reason: 'Signed attestation validation failed: Validation of signer''s certificate
-      failed: The certificate is either not yet valid or expired'
+    status: 1
+    reason: Signature is ok
     attestation:
-      format: 
-      publishingChannel: 
+      format: archive
+      publishingChannel: unity
       entitlementKeys: []
       ownerOrgName: 
       ownerOrgId: 
       publisherName: 
-    errorCode: ERR_SIGNED_ATTESTATION_VALIDATION_FAILED
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 0840f58e45624f7677679a0f8b6a5137689e607f
@@ -7727,4 +8203,4 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-m_BuiltInPackagesHash: 273cf325f82fd0f95d60b398bf4d7837699b2e95
+m_BuiltInPackagesHash: ca7f94192635682fb88813031e06e0aa9ebea9dc
