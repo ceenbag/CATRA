@@ -3,41 +3,35 @@ using UnityEngine;
 public class EnemyPatrol : MonoBehaviour
 {
     [Header("Patrol Settings")]
-    public float speed = 1f;
-    public Transform[] patrolPoints; // Array to hold Point A and Point B
-    
-    private int currentPointIndex = 0;
-    private SpriteRenderer spriteRenderer;
+    public float speed = 3f;
+    public Transform[] waypoints; // Array to hold our patrol points
 
-    void Start()
-    {
-        // Grab the SpriteRenderer to flip the sprite later
-        spriteRenderer = GetComponent<SpriteRenderer>();
-    }
+    private int currentWaypointIndex = 0;
 
     void Update()
     {
-        if (patrolPoints.Length == 0) return;
+        // Safety check: if no waypoints are assigned, do nothing
+        if (waypoints.Length == 0) return;
 
-        // Move the enemy towards the current target patrol point
-        transform.position = Vector2.MoveTowards(transform.position, patrolPoints[currentPointIndex].position, speed * Time.deltaTime);
+        // 1. Move the enemy towards the current waypoint
+        transform.position = Vector2.MoveTowards(
+            transform.position, 
+            waypoints[currentWaypointIndex].position, 
+            speed * Time.deltaTime
+        );
 
-        // Check distance to point, if less than 0.25 switch to next point
-        if (Vector2.Distance(transform.position, patrolPoints[currentPointIndex].position) < 0.25f)
+        // 2. Check if the enemy has reached the waypoint
+        // We use 0.1f instead of 0 because floating point math is rarely exact
+        if (Vector2.Distance(transform.position, waypoints[currentWaypointIndex].position) < 0.1f)
         {
-            currentPointIndex++;
-            
-            // Loop back to first point if array ends
-            if (currentPointIndex >= patrolPoints.Length)
+            // Move to the next waypoint in the list
+            currentWaypointIndex++;
+
+            // 3. If we've reached the end of the list, loop back to the first one
+            if (currentWaypointIndex >= waypoints.Length)
             {
-                currentPointIndex = 0;
+                currentWaypointIndex = 0;
             }
-        }
-
-        // Flip the sprite l/r
-        if (spriteRenderer != null)
-        {
-            spriteRenderer.flipX = (transform.position.x - patrolPoints[currentPointIndex].position.x) < 0;
         }
     }
 }
