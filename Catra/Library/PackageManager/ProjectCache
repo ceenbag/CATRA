@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639086191077227469
-    m_Hash: 300519696
+      ticks: 639087787704663652
+    m_Hash: 3517183271
   m_LockFileStatus:
     m_FilePath: C:/Users/ceenbag/GithubRepos/CATRA/Catra/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639086191077285743
-    m_Hash: 261067325
+      ticks: 639087787704668688
+    m_Hash: 4223670457
 m_EmbeddedPackageManifests:
   m_ManifestsStatus:
     C:/Users/ceenbag/GithubRepos/CATRA/Catra/Packages/com.unity.2d.tilemap.extras/package.json:
@@ -2950,10 +2950,12 @@ m_ResolvedPackages:
     - 1.9.8
     - 1.9.9
     - 1.9.10
+    - 1.9.11
     compatible:
     - 1.9.9
     - 1.9.10
-    recommended: 1.9.10
+    - 1.9.11
+    recommended: 1.9.11
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -6885,10 +6887,12 @@ m_ResolvedPackages:
     - 2.8.1
     - 2.8.2
     - 2.8.3
+    - 2.8.4
     compatible:
     - 2.8.2
     - 2.8.3
-    recommended: 2.8.3
+    - 2.8.4
+    recommended: 2.8.4
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -8122,9 +8126,11 @@ m_ResolvedPackages:
     - 3.0.3
     - 3.1.0
     - 3.2.0
+    - 3.2.1
     compatible:
     - 3.2.0
-    recommended: 3.2.0
+    - 3.2.1
+    recommended: 3.2.1
     deprecated: []
   dependencies:
   - name: com.unity.test-framework

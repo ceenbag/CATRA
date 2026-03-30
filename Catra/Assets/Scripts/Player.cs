@@ -12,7 +12,6 @@ public class Player : MonoBehaviour
     [SerializeField] Animator animator;
 
     [Header("Player Settings")]
-    [SerializeField] int health;
     [SerializeField] float speed;
     [SerializeField] float jumpingPower;
     [SerializeField] int extraJumpsValue;
@@ -20,6 +19,7 @@ public class Player : MonoBehaviour
     [Header("Gounding")]
     [SerializeField] LayerMask groundLayer;
     [SerializeField] Transform groundCheck;
+
 
 
     private float horizontal;
@@ -57,31 +57,5 @@ public class Player : MonoBehaviour
     private bool IsGrounded()
     {
         return Physics2D.OverlapCapsule(groundCheck.position, new Vector2(1f, 0.1f), CapsuleDirection2D.Horizontal, 0.2f, groundLayer);
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(collision.gameObject.tag == "Damage")
-        {
-            health -= 25;
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 4);
-            StartCoroutine(BlinkRed());
-
-            if(health <= 0)
-            {
-                Die();
-            }
-        }
-    }
-    private IEnumerator BlinkRed()
-    {
-        spriteRenderer.color = Color.red;
-        yield return new WaitForSeconds(0.1f);
-        spriteRenderer.color = Color.white;
-    }
-
-    private void Die()
-    {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Level1");
     }
 }
