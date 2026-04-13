@@ -153,8 +153,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -952.53, y: 267.24}
-  m_SizeDelta: {x: 1225, y: 128}
+  m_AnchoredPosition: {x: -800, y: 300}
+  m_SizeDelta: {x: 928.8706, y: 128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &67289418
 MonoBehaviour:
@@ -455,6 +455,7 @@ MonoBehaviour:
   waypoints:
   - {fileID: 1591325791}
   - {fileID: 1185853726}
+  damage: 1
 --- !u!212 &177328165
 SpriteRenderer:
   serializedVersion: 2
@@ -563,7 +564,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0043805838, y: -0.03504625}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -573,7 +574,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.736007, y: 1.2099075}
+  m_Size: {x: 0.9233637, y: 1.2934575}
   m_EdgeRadius: 0
 --- !u!1 &335100446
 GameObject:
@@ -14785,7 +14786,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -0.000061035156}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &854089848
@@ -14815,6 +14816,7 @@ GameObject:
   - component: {fileID: 950217097}
   - component: {fileID: 950217096}
   - component: {fileID: 950217095}
+  - component: {fileID: 950217098}
   m_Layer: 6
   m_Name: Damage
   m_TagString: Damage
@@ -15047,6 +15049,19 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &950217098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950217093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f57ce5043f58c7c41aa9b1e9b3a990f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy_Spike
+  damage: 1
 --- !u!1 &992288491
 GameObject:
   m_ObjectHideFlags: 0
@@ -15065,7 +15080,7 @@ GameObject:
   - component: {fileID: 992288498}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16071,8 +16086,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -952.53, y: 267.24}
-  m_SizeDelta: {x: 1225, y: 128}
+  m_AnchoredPosition: {x: -800, y: 300}
+  m_SizeDelta: {x: 928.8706, y: 128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1331337448
 MonoBehaviour:

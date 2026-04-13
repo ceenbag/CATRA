@@ -5,7 +5,15 @@ public class EnemyPatrol : MonoBehaviour
     [Header("Patrol Settings")]
     public float speed = 3f;
     public Transform[] waypoints; // Array to hold our patrol points
+    [SerializeField] private float damage;
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            collision.GetComponent<Health>().TakeDamage(damage);
+        }
+    }
     private int currentWaypointIndex = 0;
 
     void Update()
