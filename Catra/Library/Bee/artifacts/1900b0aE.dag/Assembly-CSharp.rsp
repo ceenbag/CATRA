@@ -480,6 +480,7 @@
 "Assets/Scripts/Enemy_Spike.cs"
 "Assets/Scripts/Health.cs"
 "Assets/Scripts/Healthbar.cs"
+"Assets/Scripts/MainMenuManager.cs"
 "Assets/Scripts/Player.cs"
 -langversion:9.0
 /deterministic
