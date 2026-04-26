@@ -5,15 +5,6 @@ public class EnemyPatrol : MonoBehaviour
     [Header("Patrol Settings")]
     public float speed = 3f;
     public Transform[] waypoints; // Array to hold our patrol points
-    [SerializeField] private float damage;
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "Player")
-        {
-            collision.GetComponent<Health>().TakeDamage(damage);
-        }
-    }
     private int currentWaypointIndex = 0;
 
     void Update()
@@ -27,7 +18,6 @@ public class EnemyPatrol : MonoBehaviour
             waypoints[currentWaypointIndex].position, 
             speed * Time.deltaTime
         );
-
         // 2. Check if the enemy has reached the waypoint
         // We use 0.1f instead of 0 because floating point math is rarely exact
         if (Vector2.Distance(transform.position, waypoints[currentWaypointIndex].position) < 0.1f)

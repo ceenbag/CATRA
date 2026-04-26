@@ -28,6 +28,12 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
+
+        //Flips player when moving left or right
+        if(horizontal> 0.01f)
+            transform.localScale = Vector3.one;
+        else if (horizontal < -0.01f)
+            transform.localScale = new Vector3(-1, 1, 1);
     }
     public void Move(InputAction.CallbackContext context)
     {
