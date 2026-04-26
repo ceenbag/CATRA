@@ -481,7 +481,9 @@
 "Assets/Scripts/Health.cs"
 "Assets/Scripts/Healthbar.cs"
 "Assets/Scripts/MainMenuManager.cs"
+"Assets/Scripts/MeleeHitbox.cs"
 "Assets/Scripts/Player.cs"
+"Assets/Scripts/PlayerAttack.cs"
 -langversion:9.0
 /deterministic
 /optimize+
